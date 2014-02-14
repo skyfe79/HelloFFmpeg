@@ -13,14 +13,14 @@
 		4E78AD9818ACDF8400CA645B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78AD9718ACDF8400CA645B /* Cocoa.framework */; };
 		4E78AD9A18ACDF8B00CA645B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78AD9918ACDF8B00CA645B /* Foundation.framework */; };
 		4E78AD9D18ACDF9E00CA645B /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E78AD9B18ACDF9E00CA645B /* main.mm */; };
-		4E78ADB818ADE98600CA645B /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78ADB018ADE98600CA645B /* libavcodec.a */; };
-		4E78ADB918ADE98600CA645B /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78ADB118ADE98600CA645B /* libavdevice.a */; };
-		4E78ADBA18ADE98600CA645B /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78ADB218ADE98600CA645B /* libavfilter.a */; };
-		4E78ADBB18ADE98600CA645B /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78ADB318ADE98600CA645B /* libavformat.a */; };
-		4E78ADBC18ADE98600CA645B /* libavresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78ADB418ADE98600CA645B /* libavresample.a */; };
-		4E78ADBD18ADE98600CA645B /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78ADB518ADE98600CA645B /* libavutil.a */; };
-		4E78ADBE18ADE98600CA645B /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78ADB618ADE98600CA645B /* libswresample.a */; };
-		4E78ADBF18ADE98600CA645B /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78ADB718ADE98600CA645B /* libswscale.a */; };
+		4E78AE0E18ADEF7F00CA645B /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78AE0618ADEF7F00CA645B /* libavcodec.a */; };
+		4E78AE0F18ADEF7F00CA645B /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78AE0718ADEF7F00CA645B /* libavdevice.a */; };
+		4E78AE1018ADEF7F00CA645B /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78AE0818ADEF7F00CA645B /* libavfilter.a */; };
+		4E78AE1118ADEF7F00CA645B /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78AE0918ADEF7F00CA645B /* libavformat.a */; };
+		4E78AE1218ADEF7F00CA645B /* libavresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78AE0A18ADEF7F00CA645B /* libavresample.a */; };
+		4E78AE1318ADEF7F00CA645B /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78AE0B18ADEF7F00CA645B /* libavutil.a */; };
+		4E78AE1418ADEF7F00CA645B /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78AE0C18ADEF7F00CA645B /* libswresample.a */; };
+		4E78AE1518ADEF7F00CA645B /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78AE0D18ADEF7F00CA645B /* libswscale.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,14 +46,14 @@
 		4E78AD9918ACDF8B00CA645B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4E78AD9B18ACDF9E00CA645B /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		4E78AD9C18ACDF9E00CA645B /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
-		4E78ADB018ADE98600CA645B /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
-		4E78ADB118ADE98600CA645B /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavdevice.a; sourceTree = "<group>"; };
-		4E78ADB218ADE98600CA645B /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavfilter.a; sourceTree = "<group>"; };
-		4E78ADB318ADE98600CA645B /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
-		4E78ADB418ADE98600CA645B /* libavresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavresample.a; sourceTree = "<group>"; };
-		4E78ADB518ADE98600CA645B /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
-		4E78ADB618ADE98600CA645B /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
-		4E78ADB718ADE98600CA645B /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
+		4E78AE0618ADEF7F00CA645B /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
+		4E78AE0718ADEF7F00CA645B /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavdevice.a; sourceTree = "<group>"; };
+		4E78AE0818ADEF7F00CA645B /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavfilter.a; sourceTree = "<group>"; };
+		4E78AE0918ADEF7F00CA645B /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
+		4E78AE0A18ADEF7F00CA645B /* libavresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavresample.a; sourceTree = "<group>"; };
+		4E78AE0B18ADEF7F00CA645B /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
+		4E78AE0C18ADEF7F00CA645B /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
+		4E78AE0D18ADEF7F00CA645B /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +61,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E78ADBD18ADE98600CA645B /* libavutil.a in Frameworks */,
-				4E78ADBA18ADE98600CA645B /* libavfilter.a in Frameworks */,
-				4E78ADBF18ADE98600CA645B /* libswscale.a in Frameworks */,
-				4E78ADB918ADE98600CA645B /* libavdevice.a in Frameworks */,
-				4E78ADBB18ADE98600CA645B /* libavformat.a in Frameworks */,
+				4E78AE1318ADEF7F00CA645B /* libavutil.a in Frameworks */,
+				4E78AE1018ADEF7F00CA645B /* libavfilter.a in Frameworks */,
+				4E78AE1518ADEF7F00CA645B /* libswscale.a in Frameworks */,
+				4E78AE0F18ADEF7F00CA645B /* libavdevice.a in Frameworks */,
+				4E78AE1118ADEF7F00CA645B /* libavformat.a in Frameworks */,
 				4E78AD9A18ACDF8B00CA645B /* Foundation.framework in Frameworks */,
 				4E78AD9818ACDF8400CA645B /* Cocoa.framework in Frameworks */,
-				4E78ADBE18ADE98600CA645B /* libswresample.a in Frameworks */,
-				4E78ADBC18ADE98600CA645B /* libavresample.a in Frameworks */,
+				4E78AE1418ADEF7F00CA645B /* libswresample.a in Frameworks */,
+				4E78AE1218ADEF7F00CA645B /* libavresample.a in Frameworks */,
 				4E78AD9618ACDF7A00CA645B /* SDL.framework in Frameworks */,
-				4E78ADB818ADE98600CA645B /* libavcodec.a in Frameworks */,
+				4E78AE0E18ADEF7F00CA645B /* libavcodec.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 		4E78AD7C18ACDF5900CA645B = {
 			isa = PBXGroup;
 			children = (
-				4E78ADAF18ADE98600CA645B /* ffmpeg */,
+				4E78AE0518ADEF7F00CA645B /* ffmpeg */,
 				4E78AD9418ACDF7000CA645B /* Frameworks */,
 				4E78AD8718ACDF5900CA645B /* HelloFFmpeg */,
 				4E78AD8618ACDF5900CA645B /* Products */,
@@ -118,17 +118,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4E78ADAF18ADE98600CA645B /* ffmpeg */ = {
+		4E78AE0518ADEF7F00CA645B /* ffmpeg */ = {
 			isa = PBXGroup;
 			children = (
-				4E78ADB018ADE98600CA645B /* libavcodec.a */,
-				4E78ADB118ADE98600CA645B /* libavdevice.a */,
-				4E78ADB218ADE98600CA645B /* libavfilter.a */,
-				4E78ADB318ADE98600CA645B /* libavformat.a */,
-				4E78ADB418ADE98600CA645B /* libavresample.a */,
-				4E78ADB518ADE98600CA645B /* libavutil.a */,
-				4E78ADB618ADE98600CA645B /* libswresample.a */,
-				4E78ADB718ADE98600CA645B /* libswscale.a */,
+				4E78AE0618ADEF7F00CA645B /* libavcodec.a */,
+				4E78AE0718ADEF7F00CA645B /* libavdevice.a */,
+				4E78AE0818ADEF7F00CA645B /* libavfilter.a */,
+				4E78AE0918ADEF7F00CA645B /* libavformat.a */,
+				4E78AE0A18ADEF7F00CA645B /* libavresample.a */,
+				4E78AE0B18ADEF7F00CA645B /* libavutil.a */,
+				4E78AE0C18ADEF7F00CA645B /* libswresample.a */,
+				4E78AE0D18ADEF7F00CA645B /* libswscale.a */,
 			);
 			name = ffmpeg;
 			path = HelloFFmpeg/ffmpeg;
@@ -279,12 +279,15 @@
 					"$(inherited)",
 					/Users/burt/Study/HelloFFmpeg/HelloFFmpeg/ffmpeg,
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-lm",
 					"-lz",
 					"-lbz2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
 			};
 			name = Debug;
 		};
@@ -306,12 +309,15 @@
 					"$(inherited)",
 					/Users/burt/Study/HelloFFmpeg/HelloFFmpeg/ffmpeg,
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-lm",
 					"-lz",
 					"-lbz2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
 			};
 			name = Release;
 		};

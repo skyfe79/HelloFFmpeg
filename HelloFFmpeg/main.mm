@@ -9,11 +9,17 @@
 #include "main.h"
 #include <SDL/SDL.h>
 #include "SDLMain.h"
+
+/**
+ @see http://stackoverflow.com/questions/4585847/g-linking-error-on-mac-while-compiling-ffmpeg
+ */
+extern "C" {
 #include <libavcodec/avcodec.h>
+#include <libavformat/avformat.h>
+}
 
 int main(int argc, char **argv)
 {
-	
-	
+	av_register_all();
 	return 0;
 }
